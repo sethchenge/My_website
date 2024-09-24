@@ -1,21 +1,68 @@
-.paragraph{
-  color: white;
-  background-color: black;
-  font-family: calibri;
-  margin-left: 3px;
-  margin-top: 2px;
-  align-content: normal;
-}
-.journey{
-  color:black;
-  background-color:aliceblue;
-  align-content: flex-end;
-  animation-play-state: running;
+.services{
+  color:rgb(154, 216, 68);
   text-align: right;
 }
+.paragraph{
+  color: rgb(16, 160, 227);
+  text-align: left;
+}
 .head{
-  color:brown;
-  font-size: larger;
-  font-weight: 500;
+  color:aqua;
   text-align: center;
+}
+.services:hover{
+  color: blue;
+  cursor: pointer;
+  transition-duration: 0.1s;
+  text-shadow: 3px;
+}
+.paragraph:hover{
+  color: rgb(206, 25, 185);
+  cursor: zoom-in;
+}
+.image{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-fit: contain;
+  object-position: top;
+  object-position: left;
+  margin-top: 10px;
+}
+.subscribe-button{
+background-color: red;
+color:azure;
+opacity: 0.5;
+transition: background-color 1s;
+transition: color 0.5s
+margin-left: 300px;
+border-style:solid;
+  border-color: white;
+  border-width: 3px;
+}
+.contact-button{
+  background-color: rgb(27, 20, 216);
+  color:rgb(50, 188, 188);
+  opacity: 0.5;
+  transition: background-color 1s;
+  transition: color 0.5s
+  margin-left: 30px;
+  margin-top: 10px;
+  border-style:solid;
+  border-color: black;
+  border-width: 3px;
+}
+.subscribe-button:hover{
+  background-color:blue;
+  color: rgb(199, 232, 38);
+  cursor:pointer;
+  border-color: rgb(217, 10, 186);
+  border-width: 2px;
+}
+.contact-button:hover{
+  background-color: green;
+  color: rgb(199, 232, 38);
+  cursor: alias;
+  border-color: rgb(39, 160, 221);
+  border-width: 2px;
 }
